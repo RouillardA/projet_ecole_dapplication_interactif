@@ -1,0 +1,130 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sac de transport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Itim|Montserrat+Alternates|Passion+One" rel="stylesheet">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        body {
+            background-color: #FFD025;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="head-bag" class="header"><a href="main.html" class="back"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+            <h1>Bagages</h1>
+            <img src="img/bagages-01-01.png" alt="Logo" title="Logo">
+            <div class="row form-inline">
+                <div class="col-lg-12">
+                    <div class="form-group ajouter">
+                        <div class="col-lg-12">
+                            <input id="textbox" name="textbox" placeholder="Item" class="form-control input-md">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-12">
+                            <button class="btn btn-primary" id="add">Ajouter à la liste</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="checkboxes" id="list">
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox27" name="27" id="c27" class="checkbox" />
+                <label for="c27" class="uncheck" id="n27">Pijama</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox28" name="28" id="c28" class="checkbox" />
+                <label for="c28" class="uncheck" id="n28">Bas</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox29" name="29" id="c29" class="checkbox" />
+                <label for="c29" class="uncheck" id="n29">Sous-vêtements</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox30" name="30" id="c30" class="checkbox" />
+                <label for="c30" class="uncheck" id="n30">T-shirt</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox31" name="31" id="c31" class="checkbox" />
+                <label for="c31" class="uncheck" id="n31">Chandail long</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox32" name="32" id="c32" class="checkbox" />
+                <label for="c32" class="uncheck" id="n32">Veste/Manteau</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox33" name="33" id="c33" class="checkbox" />
+                <label for="c33" class="uncheck" id="n33">Short</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox34" name="34" id="c34" class="checkbox" />
+                <label for="c34" class="uncheck" id="n34">Pantalon long</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox35" name="35" id="c35" class="checkbox" />
+                <label for="c35" class="uncheck" id="n35">Bottes</label>
+            </li>
+
+            <li>
+                <button type="button" class="close boxclose">&times;</button>
+                <input type="checkbox" store="checkbox36" name="36" id="c36" class="checkbox" />
+                <label for="c36" class="uncheck" id="n36">Sandales</label>
+            </li>
+        </ul>
+
+        <div class="save navbar-fixed-bottom">
+            <button class="bottomBtnDisplay effaceTout">Effacer la liste</button>
+            <button class="bottomBtnDisplay js-clear">Effacer la selection</button>
+        </div>
+    </div>
+    <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
